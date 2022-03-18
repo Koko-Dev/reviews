@@ -155,6 +155,11 @@ h3 {
 		'three'
 		'four'
 		'five';
+
+	/* note: The padding-block CSS shorthand property defines the
+	     logical block start and end padding of an element, which
+	      maps to physical padding properties depending on the
+	      element's writing mode, directionality, and text orientation. --mdn*/
 	padding-block: 2rem;
 	width: min(95%, 70rem);
 
