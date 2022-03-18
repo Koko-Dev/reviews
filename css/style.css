@@ -49,3 +49,10 @@ ol[role='list'] {
 html:focus-within {
 	scroll-behavior: smooth;
 }
+
+/* todo: Set core body defaults */
+body {
+	min-height: 100vh;
+	text-rendering: optimizeSpeed;
+	line-height: 1.5;
+}
