@@ -134,4 +134,8 @@ h3 {
 	background: hsl(var(--clr-neutral-100));
 }
 
+.text-neutral-100 {
+	color: hsl(var(--clr-neutral-100));
+}
+
 
