@@ -248,4 +248,8 @@ h3 {
 	line-height: 1;
 }
 
+.testimonial .position {
+	font-size: var(--fs-300);
+	opacity: 0.5;
+}
 
