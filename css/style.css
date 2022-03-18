@@ -15,3 +15,11 @@
 	--fs-400: 0.8125rem;
 	--fs-500: 1.25rem;
 }
+
+/* Box Sizing */
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
