@@ -56,3 +56,8 @@ body {
 	text-rendering: optimizeSpeed;
 	line-height: 1.5;
 }
+
+/* todo: Set elements that do not have a class some default styles */
+a:not([class]) {
+	text-decoration-skip-ink: auto;
+}
