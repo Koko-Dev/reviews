@@ -230,5 +230,11 @@ h3 {
 	}
 }
 
+.testimonial.quote {
+	background-image: url("./../images/quote.svg");
+	background-repeat: no-repeat;
+	background-position: top right 10%;
+}
+
 
 
