@@ -1,3 +1,4 @@
+/* todo:  Set Root Properties */
 :root {
 	--clr-primary-400: 263 55% 52%;
 	--clr-secondary-400: 217 19% 35%;
@@ -16,14 +17,14 @@
 	--fs-500: 1.25rem;
 }
 
-/* Box Sizing */
+/* todo: Set Box Sizing */
 *,
 *::before,
 *::after {
 	box-sizing: border-box;
 }
 
-/* Remove default margins */
+/* todo: Remove default margins */
 body,
 h1,
 h2,
@@ -36,3 +37,11 @@ dl,
 dd {
 	margin: 0;
 }
+
+/* todo: Remove list styles on ul/ol elements with a list role,
+    which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+	list-style: none;
+}
+
