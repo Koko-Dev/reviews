@@ -45,3 +45,7 @@ ol[role='list'] {
 	list-style: none;
 }
 
+/* todo: Set core root defaults */
+html:focus-within {
+	scroll-behavior: smooth;
+}
