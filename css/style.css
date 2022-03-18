@@ -117,8 +117,17 @@ h3 {
 
 /* note: https://piccalil.li/quick-tip/flow-utility/ */
 .flow > *:where(:not(:first-child)) {
-	margin-top: var(--flow-space, 1em);
+	margin-top: var(--flow-spacer, 1em);
 }
 
+.bg-primary-400 {
+	background: hsl(var(--clr-primary-400));
+}
+.bg-secondary-400 {
+	background: hsl(var(--clr-secondary-400));
+}
+.bg-secondary-500 {
+	background: hsl(var(--clr-secondary-500));
+}
 
 
