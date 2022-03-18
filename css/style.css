@@ -222,5 +222,13 @@ h3 {
 	}
 }
 
+@media screen and (min-width: 75em) {
+	.testimonial-grid {
+		.grid-template-areas:
+		"one one two five"
+		"three four four five";
+	}
+}
+
 
 
