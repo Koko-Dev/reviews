@@ -130,4 +130,8 @@ h3 {
 	background: hsl(var(--clr-secondary-500));
 }
 
+.bg-neutral-100 {
+	background: hsl(var(--clr-neutral-100));
+}
+
 
