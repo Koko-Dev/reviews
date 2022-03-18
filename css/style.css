@@ -68,3 +68,11 @@ picture {
 	max-width: 100%;
 	display: block;
 }
+
+/* todo: Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
